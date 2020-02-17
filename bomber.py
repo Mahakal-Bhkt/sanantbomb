@@ -450,7 +450,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By SpeedX !!                ")
+        print("              This Bomber Was Created By Sanan akther !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -545,11 +545,11 @@ try:
 except Exception:
     type = 0
 if type == 1:
-    nm = int(input("Enter Number of Calls To Send(Maximum 15): "))
-    if nm > 15:
+    nm = int(input("Enter Number of Calls To Send(Maximum 30): "))
+    if nm > 30:
         print("\t\tYou Have Entered " + str(nm) +
-              ".\n\tNormalizing Value To 15")
-        nm = 15
+              ".\n\tNormalizing Value To 30")
+        nm = 30
     dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
@@ -619,7 +619,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By SpeedX !!                ")
+    print("              This Bomber Was Created By Sanan akther !!                ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
