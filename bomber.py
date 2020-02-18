@@ -240,15 +240,16 @@ def banner():
     
     clr()
     logo="""                                                  
-   ████████ ██████                 ██             
-   ▒▒▒██▒▒▒ ██▒▒▒██                ██             
-      ██    ██   ██  ████  ██   ██ ██             
-      ██    ██████▒ ██▒▒██ ███ ███ █████          
-      ██    ██▒▒▒██ ██  ██ ██▒█▒██ ██▒▒██         
-      ██    ██   ██ ██  ██ ██ ▒ ██ ██  ██         
-      ██    ██████▒ ▒████▒ ██   ██ █████▒         
-      ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
-                                         """
+   ||||||||||||||           ||||||||||||||||||
+   |||                      ||||          ||||
+   |||                      ||||          ||||
+   |||                      ||||          ||||
+   ||||||||||||||           ||||||||||||||||||
+              |||           ||||          ||||
+              |||           ||||          ||||
+              |||  |||||    ||||          ||||
+   ||||||||||||||  |||||    ||||          ||||
+                                                """
     print(random.choice(colors)+logo+W)
     print("\n")
 
@@ -418,7 +419,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update TBomb')
+                print('Sorry All APIs Have Expired Please Update sanantbomb')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -436,7 +437,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To ggspeedx29@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To sananakther@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -619,7 +620,7 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By Sanan akther !!                ")
+    print("              This Bomber Was Created By Sananakther !!           ")
     print("==================================================================")
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
