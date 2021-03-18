@@ -451,7 +451,7 @@ def start(target, counter, delay, ch, cc):
         print("             Failed Requests         : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By Sanan akther !!                ")
+        print("              This Bomber Was Created By anonymous-king !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -563,9 +563,9 @@ elif type == 0:
             input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 500
-else:
     maxlim = 100
+else:
+    maxlim = 1000
 if nm > maxlim:
     print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
           str(maxlim) + ' SMS At Once...\n\n')
